@@ -11,8 +11,11 @@
 
 #include <SoftwareSerial.h>
 
-#define PC_SERIAL_BAUDRATE  115200
-#define BT_SERIAL_BAUDRATE  115200
+/*Definir el baudrate de la comunicación serial del bluetooth 
+ y el arduino. */
+ 
+#define PC_SERIAL_BAUDRATE 9600
+#define BT_SERIAL_BAUDRATE 9600
 
 SoftwareSerial SerialBt(2, 3);
 char estado = ' ';
